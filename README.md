@@ -33,7 +33,7 @@ streamlit run app.py
 ```
 
 ## **Project Structure**
-
+```
 customer_churn_app/
 │
 ├─ app.py                 # Main Streamlit application
@@ -43,6 +43,7 @@ customer_churn_app/
 ├─ Telco-Customer-Churn.csv # the data
 ├─ test.py  # to have a sample test
 └─ README.md              # Project documentation
+```
 
 ## **Dependencies**
 
