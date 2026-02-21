@@ -39,14 +39,17 @@ customer_churn_app/
 ├─ app.py                 # Main Streamlit application
 ├─ churn_pipeline.pkl     # Trained ML pipeline
 ├─ requirements.txt       # Python dependencies
+├─ Telco_Customer_Churn.ipynb # Analysis
+├─ Telco-Customer-Churn.csv # the data
+├─ test.py  # to have a sample test
 └─ README.md              # Project documentation
 
 ## **Dependencies**
 
-streamlit
-pandas
-scikit-learn
-joblib
+* streamlit
+* pandas
+* scikit-learn
+* joblib
 
 ## **Deployment**
 You can deploy the app easily on Streamlit Community Cloud:
