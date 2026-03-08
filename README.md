@@ -2,6 +2,8 @@
 
 This is a **Streamlit web application** to predict the likelihood of a customer churning (leaving) based on their account and service details. The app also provides **recommendations to retain high-risk customers**.
 
+Deployed Link:- https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app/
+
 ---
 
 ## **Features**
