@@ -1,10 +1,10 @@
 # 📉 Telecom Customer Churn Prediction & Retention Intelligence
 
-Deployed app Link:- https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Enabled-orange.svg)](https://scikit-learn.org/)
 
 > An end-to-end Machine Learning web application designed to predict telecom customer churn and provide actionable retention strategies based on individual risk factors.
+Deployed app Link:- https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app
 
 ## 🎯 Business Value
 In the telecom industry, acquiring a new customer is significantly more expensive than retaining an existing one. This project doesn't just predict *if* a customer will churn—it focuses on **business-centric metrics** by optimizing for **Recall** to ensure high-risk customers aren't missed. Furthermore, it empowers Customer Success teams by generating **ranked retention recommendations** tailored to each user.
