@@ -1,6 +1,6 @@
 # 📉 Telecom Customer Churn Prediction & Retention Intelligence
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app])
+Deployed app Link:- https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Enabled-orange.svg)](https://scikit-learn.org/)
 
