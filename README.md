@@ -1,6 +1,6 @@
 # 📉 Telecom Customer Churn Prediction & Retention Intelligence
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app-link.streamlit.app](https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app/))
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://customer-churn-analysis-sgel5lcxrzygrvsjf637co.streamlit.app])
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Enabled-orange.svg)](https://scikit-learn.org/)
 
@@ -26,7 +26,7 @@ In the telecom industry, acquiring a new customer is significantly more expensiv
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/customer-churn-app.git](https://github.com/yourusername/customer-churn-app.git)
+git clone https://github.com/Yogi1107/Customer-Churn-Analysis.git
 cd customer-churn-app
 ```
 
