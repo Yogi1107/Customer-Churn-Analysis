@@ -17,9 +17,16 @@ In the telecom industry, acquiring a new customer is significantly more expensiv
 - **Actionable Intelligence:** Recommendation engine that outputs ranked, specific retention strategies based on the customer's unique profile (e.g., incentivizing longer contracts or upselling tech support).
 
 ## 📊 Model Performance
-* **Baseline Model:** Logistic Regression (with `class_weight=\"balanced\"`)
-* **Recall:** ~88% *(Optimized to capture maximum churners)*
-* *Note: Recall was strictly prioritized over accuracy because missing a churning customer (False Negative) costs the business significantly more than unnecessarily flagging a loyal customer (False Positive).*
+* **Baseline Model:** Logistic Regression (`class_weight="balanced"`), threshold tuned to 0.35
+* **Recall:** 90.4% — catches 338 of 374 actual churners in the test set
+* **Precision:** ~44.7% — roughly 1 in 2 flagged customers is a true churn risk
+* **ROC-AUC:** 0.842
+
+*Threshold and class weighting were deliberately tuned to favor recall: in this business
+context, the cost of missing a churning customer (lost revenue) is assumed to outweigh
+the cost of a false positive (an unnecessary retention offer to a loyal customer).
+This tradeoff means roughly half of customers flagged as "high risk" will not have
+actually churned — acceptable if retention outreach is low-cost, worth revisiting if not.*
 
 ---
 
